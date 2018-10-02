@@ -20,7 +20,7 @@ self.addEventListener('install', event => {
           	'/js/main.js',
 			'/js/dbhelper.js',
 			'/js/restaurant_info.js',
-			'/js/index.js'
+			'/js/service-worker-registration.js'
 		]).catch(err => {
 			console.log("Error: ", err);
 		});
