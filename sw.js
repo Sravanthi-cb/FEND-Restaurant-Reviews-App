@@ -17,11 +17,9 @@ self.addEventListener('install', event => {
           		'img/8.jpg',
           		'img/9.jpg',
           		'img/10.jpg',
-			'js/',
           		'js/main.js',
 			'js/dbhelper.js',
-			'js/restaurant_info.js'
-			
+			'js/restaurant_info.js'		
 		]).catch(err => {
 			console.log("Error: ", err);
 		});
