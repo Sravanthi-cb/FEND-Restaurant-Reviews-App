@@ -339,6 +339,12 @@ nav h1 a {
   font-weight: bold;
   vertical-align: top;
 }
+li {
+  display: block;
+}
+li img {
+  display: inline-block;	
+}
 /* ====================== Responsive Details ====================== */
 @media screen and (max-width: 1200px) {
   #restaurants-list li {
