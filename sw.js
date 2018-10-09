@@ -8,7 +8,7 @@ self.addEventListener('install', event => {
 			'/FEND-Restaurant-Reviews-App/restaurant.html',
 			'/FEND-Restaurant-Reviews-App/css/styles.css',
 			'/FEND-Restaurant-Reviews-App/data/restaurants.json',
-          		'FEND-Restaurant-Reviews-App/img/1.jpg',
+          		'/FEND-Restaurant-Reviews-App/img/1.jpg',
           		'/FEND-Restaurant-Reviews-App/img/2.jpg',
           		'/FEND-Restaurant-Reviews-App/img/3.jpg',
           		'/FEND-Restaurant-Reviews-App/img/4.jpg',
