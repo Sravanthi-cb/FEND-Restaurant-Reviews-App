@@ -7,7 +7,7 @@ self.addEventListener('install', event => {
 			'/index.html',
 			'/css/styles.css',
 			'/data/restaurants.json',
-          	'https://github.com/Sravanthi-cb/FEND-Restaurant-Reviews-App-Stage-1/blob/master/img/1.jpg',
+          	'/img/1.jpg',
           	'/img/2.jpg',
           	'/img/3.jpg',
           	'/img/4.jpg',
