@@ -8,7 +8,10 @@ self.addEventListener('install', event => {
 			'/FEND-Restaurant-Reviews-App/restaurant.html',
 			'/FEND-Restaurant-Reviews-App/css/styles.css',
 			'/FEND-Restaurant-Reviews-App/data/restaurants.json',
-          		'img/1.jpg',
+			'/FEND-Restaurant-Reviews-App/js/main.js',
+			'/FEND-Restaurant-Reviews-App/js/dbhelper.js',
+			'/FEND-Restaurant-Reviews-App/js/restaurant_info.js'
+          		'/FEND-Restaurant-Reviews-App/img/1.jpg',
           		'/FEND-Restaurant-Reviews-App/img/2.jpg',
           		'/FEND-Restaurant-Reviews-App/img/3.jpg',
           		'/FEND-Restaurant-Reviews-App/img/4.jpg',
@@ -18,9 +21,7 @@ self.addEventListener('install', event => {
           		'/FEND-Restaurant-Reviews-App/img/8.jpg',
           		'/FEND-Restaurant-Reviews-App/img/9.jpg',
           		'/FEND-Restaurant-Reviews-App/img/10.jpg',
-          		'/FEND-Restaurant-Reviews-App/js/main.js',
-			'/FEND-Restaurant-Reviews-App/js/dbhelper.js',
-			'/FEND-Restaurant-Reviews-App/js/restaurant_info.js'		
+		
 		]).catch(err => {
 			console.log("Error: ", err);
 		});
